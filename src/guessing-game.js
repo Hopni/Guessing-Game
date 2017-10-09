@@ -1,9 +1,10 @@
 class GuessingGame {
+    var _min, _max;
     constructor()
     {
-        var _min = 0,
-            _max = 0;
-    }
+        _min = 0,
+        _max = 0;
+    };
 
     setRange(min, max) {
         if (min < max) {
