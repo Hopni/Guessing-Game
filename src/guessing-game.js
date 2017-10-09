@@ -12,7 +12,7 @@ class GuessingGame {
     };
 
     guess() {
-        return (this._min + this._max) / 2;
+        return Math.ceil((this._min + this._max) / 2);
     };
 
     lower()
