@@ -17,12 +17,12 @@ class GuessingGame {
 
     lower()
     {
-        this._max = (this._min + this._max) / 2;
+        this._max = Math.ceil((this._min + this._max) / 2);
     }
 
     greater()
     {
-        this._min = (this._min + this._max) / 2;
+        this._min = Math.ceil((this._min + this._max) / 2);
     }
 }
 
