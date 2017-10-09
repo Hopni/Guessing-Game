@@ -27,7 +27,7 @@ class GuessingGame {
 
     greater()
     {
-        _min = (_min + _ max) / 2;
+        _min = (_min + _max) / 2;
     }
 }
 
