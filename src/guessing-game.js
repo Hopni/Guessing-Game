@@ -1,6 +1,4 @@
 class GuessingGame {
-    var _min;
-    var _max;
     constructor()
     {
         _min = 0,
